@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+  background-color: #d8e9ff
+}
+
+header h1 {
+  color: aliceblue;
+  background-color: black;
+  font: "lucida handwriting", sans-serif; 
+  margin-bottom: 20px;
+}
+
+#home {
+  display: flex;
+}
+
+main .intro{
+  font-size:24px
+}
+
+.rightsidetext {
+  padding: 10px;
+  flex: 4;
+}
+
+.rightsidetext p {
+  text-align: right;
+}
+
+img{
+  flex:1;
+  padding: 10px;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.projects{
+  display: flex;
+  margin: 50px 0;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.projects .project{
+  flex: 1;
+  margin: 20px 0;
+}
+
+.skills ul {
+  display: inline;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto 50px;
