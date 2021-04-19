@@ -4,13 +4,13 @@
   font-weight: normal;
   color: black;
   text-align: center;
-  background-color: #d8e9ff
+  background-color: #d8e9ff;
 }
 
 header h1 {
   color: aliceblue;
   background-color: black;
-  font: "lucida handwriting", sans-serif; 
+  font: "lucida handwriting", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -18,8 +18,8 @@ header h1 {
   display: flex;
 }
 
-main .intro{
-  font-size:24px
+main .intro {
+  font-size: 24px;
 }
 
 .rightsidetext {
@@ -30,9 +30,9 @@ main .intro{
 .rightsidetext p {
   text-align: right;
 }
-
-img{
-  flex:1;
+/* why would I ruin this with height? */
+img {
+  flex: 1;
   padding: 10px;
 }
 
@@ -40,14 +40,14 @@ hr {
   margin: 10px 0;
 }
 
-.projects{
+.projects {
   display: flex;
   margin: 50px 0;
   justify-content: space-around;
   flex-direction: column;
 }
 
-.projects .project{
+.projects .project {
   flex: 1;
   margin: 20px 0;
 }
@@ -58,3 +58,11 @@ hr {
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto 50px;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: red;
+}
