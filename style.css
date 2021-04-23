@@ -64,6 +64,11 @@ hr {
 a {
   color: black;
 }
+
 a:hover {
   color: red;
+}
+
+a:visited {
+  color: blue;
 }
