@@ -31,7 +31,7 @@ main .intro {
 .rightsidetext p {
   text-align: right;
 }
-/* why would I ruin this with height? */
+
 img {
   flex: 1;
   padding: 10px;
@@ -40,7 +40,7 @@ img {
 hr {
   margin: 10px 0;
 }
-
+/* if there needs to be a height i added one here but were using flex box to determine height already */
 .projects {
   height: auto;
   display: flex;
